@@ -7,14 +7,14 @@
 
 | Branch Name | Description |
 | ------ | ------ |
-| master | [plugins/dropbox/README.md][PlDb] |
-| dev | [plugins/github/README.md][PlGh] |
-| feture/date_name_featureName | [plugins/googledrive/README.md][PlGd] |
+| master | Production Branch |
+| dev | Development Branch |
+| feture/date_name_featureName | Feature/Bug fix branch |
 
 ### Tech
 
 This project uses
 
-* [Angular10] - Open source javascript framwork
-* [HTML] - Hypertext Markup Language
-* [CSS] - Cascading Style Sheet
+* Angular10 - Open source javascript framework
+* HTML - Hypertext Markup Language
+* CSS - Cascading Style Sheet
