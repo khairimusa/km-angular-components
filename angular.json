@@ -24,7 +24,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -118,6 +118,15 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-components"
+    }
+  },
+  "defaultProject": "angular-components",
+  "schematics": {
+    "@schematics/angular:component": {
+      "style": "scss"
+    }
+  },
+  "cli": {
+    "analytics": false
+  }
 }
