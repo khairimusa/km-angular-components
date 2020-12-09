@@ -120,13 +120,13 @@
       }
     }
   },
-  "defaultProject": "angular-components",
   "schematics": {
     "@schematics/angular:component": {
       "style": "scss"
     }
   },
+  "defaultProject": "angular-components",
   "cli": {
-    "analytics": false
+    "analytics": "52fd6b44-a38a-4d45-bf0d-66cc691fa785"
   }
 }
