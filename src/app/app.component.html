@@ -1,4 +1,5 @@
-<app-toolbar [title] = "'100 Angular Components'">
+<!-- km-toolbar -->
+<km-toolbar [title] = "'100 Angular Components'">
     <ul>
         <li>Components</li>
         <li>Directives</li>
@@ -6,4 +7,14 @@
         <li>Pipes</li>
         <li>Other</li>
     </ul>
-</app-toolbar>
+</km-toolbar>
+
+<!-- km-card compnent -->
+<km-card 
+    [cardTitle] = "'My Card Title'"
+    [cardSubTitle] = "'My Card Sub Title'"
+    [cardIconClasses] = "infoIcon">
+
+    <p body>Body Content</p>
+    <p footer>Footer Content</p>
+</km-card>
