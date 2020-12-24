@@ -6,9 +6,10 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { KmToolbarComponent } from './components/km-toolbar/km-toolbar.component';
 import { KmCardComponent } from './components/km-card/km-card.component';
+import { MaterialModule } from './material/material.module';
 
 // 3rd party import
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +18,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    BrowserAnimationsModule,
+    MaterialModule
   ],
-  providers: [],
+  providers: [], 
   bootstrap: [AppComponent]
 })
 export class AppModule { }
