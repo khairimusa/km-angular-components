@@ -1,6 +1,9 @@
-import { Component } from '@angular/core';
+// angular imports
+import { Component, OnInit } from '@angular/core';
 
-import { faCoffee, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+// km project imports
+
+// 3rd party imports
 
 @Component({
   selector: 'app-root',
@@ -10,5 +13,9 @@ import { faCoffee, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 export class AppComponent {
   // dummy property to pass the CI ng test
   dummyTitle = 'angular-components'
-  infoIcon = faInfoCircle;
+  currentYear: number = (new Date()).getFullYear();
+
+
+
+
 }

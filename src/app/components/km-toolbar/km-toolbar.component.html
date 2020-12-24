@@ -1,7 +1,27 @@
-<div class="toolbar-container">
-    <h3>{{title}}</h3>
-    <div class="content">
-        <ng-content>
-        </ng-content>
-    </div>
-</div>
+<ng-container>
+    <!-- toolbar header-->
+    <mat-toolbar color="primary" class="navbar">
+        <button mat-icon-button (click)="sidenav.toggle()">
+            <mat-icon>menu</mat-icon>
+        </button>
+        <div>{{title}}</div>  
+        <div class="navbar-menu">
+        <span>Home</span>  
+        <span>
+            <mat-icon>format_color_fill</mat-icon>
+        </span>
+        </div>
+    </mat-toolbar>
+
+    <!-- sidenav -->
+    <mat-sidenav-container class="container">
+        <mat-sidenav>Sidenav</mat-sidenav>
+    
+        <mat-sidenav-content>
+          Main Content
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+
+    <!-- toolbar footer -->
+    <mat-toolbar class="footer" color="primary"><small>&copy; Copyright {{currentYear}}, KhairiMusa </small></mat-toolbar>
+</ng-container>
