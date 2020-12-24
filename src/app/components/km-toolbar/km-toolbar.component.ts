@@ -1,4 +1,10 @@
-import { Component, Input, OnInit } from '@angular/core';
+// angular imports
+import { Component, Input, OnInit, ViewChild } from '@angular/core';
+
+// km project imports
+
+// 3rd party imports
+import { MatSidenav } from '@angular/material/sidenav';
 
 @Component({
   selector: 'km-toolbar',
@@ -8,7 +14,11 @@ import { Component, Input, OnInit } from '@angular/core';
 export class KmToolbarComponent implements OnInit {
 
   // inputs
-  @Input() title = '';
+  @Input() title: string;
+  @Input() currentYear: number;
+
+  // viewchild
+  @ViewChild(MatSidenav) sidenav: MatSidenav;
 
   constructor() { }
 
