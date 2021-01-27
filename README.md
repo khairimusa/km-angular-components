@@ -15,6 +15,6 @@
 
 This project uses
 
-* Angular10 - Open source javascript framework
+* Angular11 - Open source javascript framework
 * HTML - Hypertext Markup Language
 * CSS - Cascading Style Sheet
